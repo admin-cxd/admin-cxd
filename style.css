@@ -16,6 +16,19 @@ header {
 .subtitle {
   font-size: 1.2em;
   color: #bbb;
+  height: 25px;
+}
+
+/* Fade-in and slide-up animation */
+.animated {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 section {
@@ -23,17 +36,14 @@ section {
   max-width: 600px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  padding: 5px 0;
-}
-
+/* Glowing badges */
 .badges img {
   margin: 5px;
+  transition: transform 0.3s, filter 0.3s;
+}
+.badges img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px #00faff);
 }
 
 footer {
@@ -42,4 +52,3 @@ footer {
   background: #1e1e1e;
   color: #aaa;
 }
-
