@@ -1,4 +1,3 @@
-
 const subtitle = document.getElementById("subtitle");
 subtitle.style.opacity = 0;
 setTimeout(() => {
@@ -8,7 +7,7 @@ setTimeout(() => {
 const elements = document.querySelectorAll(".animated");
 const showOnScroll = () => {
   const triggerBottom = window.innerHeight * 0.85;
-  elements.forEach(el => {
+  elements.forEach((el) => {
     const boxTop = el.getBoundingClientRect().top;
     if (boxTop < triggerBottom) el.classList.add("show");
   });
