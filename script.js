@@ -1,14 +1,9 @@
-const text = "Aspiring blockchain and web3 dev";
+
 const subtitle = document.getElementById("subtitle");
-let i = 0;
-function typeWriter() {
-  if (i < text.length) {
-    subtitle.innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, 70);
-  }
-}
-typeWriter();
+subtitle.style.opacity = 0;
+setTimeout(() => {
+  subtitle.style.opacity = 1;
+}, 600);
 
 const elements = document.querySelectorAll(".animated");
 const showOnScroll = () => {
