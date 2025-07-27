@@ -114,6 +114,24 @@ footer {
   transform: translateY(0);
 }
 
+.dropdown-header {
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+}
+
+.dropdown-content {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.dropdown-content.show {
+  max-height: 1000px;
+  opacity: 1;
+}
+
 @media (max-width: 480px) {
   main {
     padding: 2rem 1.5rem;
