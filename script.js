@@ -30,3 +30,18 @@ window.addEventListener("scroll", () => {
     if (boxTop < triggerBottom) el.classList.add("show");
   });
 });
+
+document.querySelectorAll(".dropdown-header").forEach(header => {
+  header.addEventListener("click", () => {
+    const content = header.nextElementSibling;
+    if (!content) return;
+
+    content.classList.toggle("show");
+
+    if (content.classList.contains("show")) {
+      header.textContent = header.textContent.replace("▼", "▲");
+    } else {
+      header.textContent = header.textContent.replace("▲", "▼");
+    }
+  });
+});
