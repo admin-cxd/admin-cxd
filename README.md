@@ -13,7 +13,3 @@ Aspiring blockchain and web3 dev
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-
-## ✨ Animated Typing
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&color=F7A50C&lines=Welcome+to+my+profile!;I+love+building+awesome+projects!;Let's+connect+and+collaborate!)](https://git.io/typing-svg)
