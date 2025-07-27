@@ -21,4 +21,6 @@ Aspiring blockchain and web3 dev
 
 ## Stats
 ![admin-cxd's GitHub stats](https://github-readme-stats.vercel.app/api?username=admin-cxd&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=admin-cxd&layout=compact&theme=radical)
+![Profile Views](https://komarev.com/ghpvc/?username=admin-cxd&color=blue&style=flat-square)
 
