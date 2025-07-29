@@ -1,11 +1,5 @@
 <h1 align="center">👋 admin-cxd</h1>
 
-Aspiring blockchain and web3 dev
-
-- I like chocolate ice cream
-- I use Arch (btw) and Vim
-- I like programming :3
-
 ![Profile Views](https://komarev.com/ghpvc/?username=admin-cxd&color=blue&style=flat-square)
 
 ## Skills
